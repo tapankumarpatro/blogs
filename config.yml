@@ -1,3 +1,39 @@
 baseURL: http://example.org/
 languageCode: en-us
-title: My New Hugo Site
+theme: charlolamode
+
+title: Tapan Patro
+
+params:
+    author: Tapan Patro
+
+
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    displayFullLangName: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+
+    profileMode:
+        # Disable to populate home page with 'mainSections' content
+        enabled: true
+        title: Tapan Patro
+        description: |
+
+          Hello, I am Tapan.
+           I am a Data Scientist
+        
+
+          This is where you can know me better
+        imageUrl: "/images/rgb-color-profile.jpg"
+        imageTitle: my image
+        # imageWidth: 120
+        # imageHeight: 120
+        buttons:
+            - name: Don't click me
+              url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+    mainSections:
+      - articles
