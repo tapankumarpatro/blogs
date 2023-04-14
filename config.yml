@@ -4,6 +4,21 @@ theme: charlolamode
 
 title: Tapan Patro
 
+menu:
+    main:
+        - name: Contact
+          url: /contact/
+          weight: 30
+        - name: Articles
+          url: /articles/
+          weight: 20
+        - name: Projects
+          url: /projects/
+          weight: 15
+        - name: Me
+          url: /me/
+          weight: 15
+
 params:
     author: Tapan Patro
 
@@ -33,7 +48,20 @@ params:
         # imageWidth: 120
         # imageHeight: 120
         buttons:
-            - name: Don't click me
-              url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+            - name: About Me
+              url: /me/
+            - name: Blogs
+              url: /articles/
     mainSections:
       - articles
+
+
+    socialIcons:
+        - name: buymeacoffee
+          url: "https://www.buymeacoffee.com/tapankumar"
+        - name: github
+          url: "https://github.com/tapankumarpatro"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/tapankpatro/"
+        - name: medium
+          url: "https://medium.com/@tapanpatro"
