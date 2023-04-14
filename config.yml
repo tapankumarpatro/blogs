@@ -48,8 +48,8 @@ params:
         # imageWidth: 120
         # imageHeight: 120
         buttons:
-            - name: About Me
-              url: /me/
+            # - name: About Me
+            #   url: /me/
             - name: Blogs
               url: /articles/
     mainSections:
