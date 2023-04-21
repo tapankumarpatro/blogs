@@ -12,6 +12,9 @@ menu:
         - name: Articles
           url: /articles/
           weight: 20
+        - name: Books
+          url: /books/
+          weight: 20
         - name: Projects
           url: /projects/
           weight: 15
