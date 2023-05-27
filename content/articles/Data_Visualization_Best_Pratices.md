@@ -38,8 +38,11 @@ Choosing the right chart type for your data visualization is crucial in effectiv
 Here are some common chart types and when to use them:
 
 **Bar charts**: Bar charts are effective at comparing categories within a single measure and are one of the most common data visualizations. They’re especially effective when you have data that can be split into multiple categories.
+
 **Line graphs**: Line graphs connect several distinct data points, presenting them as one continuous evolution. They are a simple and straightforward way to visualize changes in one value relative to another.
+
 **Pie charts**: Pie charts are useful for showing proportions or percentages of a whole. However, they should be used sparingly and are often not as effective on their own.
+
 **Scatter plots**: Scatter plots are useful for showing the relationship between two variables. They can also be used to identify clusters or outliers in the data.
 
 When choosing a chart type for your data visualization, consider the type of data you have and what you want to communicate. For example, if you want to compare multiple categories within a single measure, a bar chart might be a good choice. If you want to show changes in one value over time, a line graph might be more appropriate.
