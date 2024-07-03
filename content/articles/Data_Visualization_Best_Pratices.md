@@ -1,5 +1,5 @@
 ---
-title: Data Visualization Best Practices: Tips for Creating Clear and Effective Charts and Graphs
+title: Data Visualization Best Practices Tips for Creating Clear and Effective Charts and Graphs
 type: page
 description: Click on me to see the content.
 topic: Data Visualization
