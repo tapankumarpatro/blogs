@@ -34,24 +34,31 @@ params:
   ShowToc: true
 
   # Left Section
-  profileMode:
-    enabled: true
+  leftSection:
+    image:
+      src: "/images/rgb-color-profile.jpg"
+      alt: my image
     title: Tapan Patro
     description: |
       Hello, I am Tapan.
       I am a Data Scientist
 
       This is where you can know me better
-    imageUrl: "/images/rgb-color-profile.jpg"
-    imageTitle: my image
     buttons:
       - name: Blogs
         url: /articles/
 
   # Right Section
-  latestPosts:
+  rightSection:
     title: Latest Blogs
-    count: 3
+    postCount: 3
+    posts:
+      - title: Blog Post 1
+        url: /articles/blog-post-1/
+      - title: Blog Post 2
+        url: /articles/blog-post-2/
+      - title: Blog Post 3
+        url: /articles/blog-post-3/
 
   socialIcons:
     - name: buymeacoffee
@@ -69,6 +76,7 @@ params:
     favicon32x32: "/images/favicon-32x32.png"
     apple_touch_icon: "/images/apple-touch-icon.png"
     safari_pinned_tab: "/images/apple-touch-icon.png"
+    
 # baseURL: https://tapanpatro.netlify.app/
 # languageCode: en-us
 # theme: charlolamode
