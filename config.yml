@@ -5,154 +5,75 @@ theme: charlolamode
 title: Tapan Patro
 
 menu:
-  main:
-    - name: Contact
-      url: /contact/
-      weight: 30
-    - name: Articles
-      url: /articles/
-      weight: 20
-    - name: Books
-      url: /books/
-      weight: 20
-    - name: Projects
-      url: /projects/
-      weight: 15
-    - name: Me
-      url: /me/
-      weight: 15
+    main:
+        - name: Contact
+          url: /contact/
+          weight: 30
+        - name: Articles
+          url: /articles/
+          weight: 20
+        - name: Books
+          url: /books/
+          weight: 20
+        - name: Projects
+          url: /projects/
+          weight: 15
+        - name: Me
+          url: /me/
+          weight: 15
 
 params:
-  author: Tapan Patro
-
-  defaultTheme: auto
-  ShowShareButtons: true
-  ShowReadingTime: true
-  displayFullLangName: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowToc: true
-
-  # Left Section
-  leftSection:
-    image:
-      src: "/images/rgb-color-profile.jpg"
-      alt: my image
-    title: Tapan Patro
-    description: |
-      Hello, I am Tapan.
-      I am a Data Scientist
-
-      This is where you can know me better
-    buttons:
-      - name: Blogs
-        url: /articles/
-
-  # Right Section
-  rightSection:
-    title: Latest Blogs
-    postCount: 3
-    posts:
-      - title: Blog Post 1
-        url: /articles/blog-post-1/
-      - title: Blog Post 2
-        url: /articles/blog-post-2/
-      - title: Blog Post 3
-        url: /articles/blog-post-3/
-
-  socialIcons:
-    - name: buymeacoffee
-      url: "https://www.buymeacoffee.com/tapankumar"
-    - name: github
-      url: "https://github.com/tapankumarpatro"
-    - name: linkedin
-      url: "https://www.linkedin.com/in/tapankpatro/"
-    - name: medium
-      url: "https://medium.com/@tapanpatro"
-
-  assets:
-    favicon: "/images/favicon.ico"
-    favicon16x16: "/images/favicon-16x16.png"
-    favicon32x32: "/images/favicon-32x32.png"
-    apple_touch_icon: "/images/apple-touch-icon.png"
-    safari_pinned_tab: "/images/apple-touch-icon.png"
-    
-# baseURL: https://tapanpatro.netlify.app/
-# languageCode: en-us
-# theme: charlolamode
-
-# title: Tapan Patro
-
-# menu:
-#     main:
-#         - name: Contact
-#           url: /contact/
-#           weight: 30
-#         - name: Articles
-#           url: /articles/
-#           weight: 20
-#         - name: Books
-#           url: /books/
-#           weight: 20
-#         - name: Projects
-#           url: /projects/
-#           weight: 15
-#         - name: Me
-#           url: /me/
-#           weight: 15
-
-# params:
-#     author: Tapan Patro
+    author: Tapan Patro
 
 
-#     defaultTheme: auto
-#     # disableThemeToggle: true
-#     ShowShareButtons: true
-#     ShowReadingTime: true
-#     displayFullLangName: true
-#     ShowBreadCrumbs: true
-#     ShowCodeCopyButtons: true
-#     ShowToc: true
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    displayFullLangName: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
 
-#     profileMode:
-#         # Disable to populate home page with 'mainSections' content
-#         enabled: true
-#         title: Tapan Patro
-#         description: |
+    profileMode:
+        # Disable to populate home page with 'mainSections' content
+        enabled: true
+        title: Tapan Patro
+        description: |
 
-#           Hello, I am Tapan.
-#            I am a Data Scientist
+          Hello, I am Tapan.
+           I am a Data Scientist
         
 
-#           This is where you can know me better
-#         imageUrl: "/images/rgb-color-profile.jpg"
-#         imageTitle: my image
-#         # imageWidth: 120
-#         # imageHeight: 120
-#         buttons:
-#             # - name: About Me
-#             #   url: /me/
-#             - name: Blogs
-#               url: /articles/
-#     mainSections:
-#       - articles
+          This is where you can know me better
+        imageUrl: "/images/rgb-color-profile.jpg"
+        imageTitle: my image
+        # imageWidth: 120
+        # imageHeight: 120
+        buttons:
+            # - name: About Me
+            #   url: /me/
+            - name: Blogs
+              url: /articles/
+    mainSections:
+      - articles
 
 
-#     socialIcons:
-#         - name: buymeacoffee
-#           url: "https://www.buymeacoffee.com/tapankumar"
-#         - name: github
-#           url: "https://github.com/tapankumarpatro"
-#         - name: linkedin
-#           url: "https://www.linkedin.com/in/tapankpatro/"
-#         - name: medium
-#           url: "https://medium.com/@tapanpatro"
+    socialIcons:
+        - name: buymeacoffee
+          url: "https://www.buymeacoffee.com/tapankumar"
+        - name: github
+          url: "https://github.com/tapankumarpatro"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/tapankpatro/"
+        - name: medium
+          url: "https://medium.com/@tapanpatro"
 
 
-#         # change favicon in images folder (icon for web tab)
-#     assets:
-#           favicon: "/images/favicon.ico"
-#           favicon16x16: "/images/favicon-16x16.png"
-#           favicon32x32: "/images/favicon-32x32.png"
-#           apple_touch_icon: "/images/apple-touch-icon.png"
-#           safari_pinned_tab: "/images/apple-touch-icon.png"
+        # change favicon in images folder (icon for web tab)
+    assets:
+          favicon: "/images/favicon.ico"
+          favicon16x16: "/images/favicon-16x16.png"
+          favicon32x32: "/images/favicon-32x32.png"
+          apple_touch_icon: "/images/apple-touch-icon.png"
+          safari_pinned_tab: "/images/apple-touch-icon.png"
