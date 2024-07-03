@@ -68,6 +68,8 @@ params:
           url: "https://www.linkedin.com/in/tapankpatro/"
         - name: medium
           url: "https://medium.com/@tapanpatro"
+        - name: topmate
+          url: "https://topmate.io/tapan_patro/"
 
 
         # change favicon in images folder (icon for web tab)
