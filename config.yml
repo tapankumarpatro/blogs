@@ -3,6 +3,7 @@ languageCode: en-us
 theme: charlolamode
 
 title: Tapan Patro
+author: Tapan Patro
 
 menu:
     main:
@@ -25,9 +26,8 @@ menu:
 params:
     author: Tapan Patro
 
-
+    # Theme settings
     defaultTheme: auto
-    # disableThemeToggle: true
     ShowShareButtons: true
     ShowReadingTime: true
     displayFullLangName: true
@@ -35,30 +35,36 @@ params:
     ShowCodeCopyButtons: true
     ShowToc: true
 
+    # SEO enhancements
+    metaTags:
+        description: "Tapan Patro - Data Scientist Portfolio, showcasing projects, articles, and more."
+        keywords: "Tapan Patro, Data Scientist, Portfolio, Projects, Blog"
+        twitterCard: "summary_large_image"
+        ogImage: "/images/rgb-color-profile.jpg"
+
+    # Custom CSS/JS (if needed)
+    customCSS:
+        - "/css/custom.css"
+    customJS:
+        - "/js/custom.js"
+
+    # Profile Mode
     profileMode:
-        # Disable to populate home page with 'mainSections' content
         enabled: true
         title: Tapan Patro
         description: |
-
           Hello, I am Tapan.
-           I am a Data Scientist
-        
-
-          This is where you can know me better
+          I am a Data Scientist.
+          This is where you can know me better.
         imageUrl: "/images/rgb-color-profile.jpg"
         imageTitle: my image
-        # imageWidth: 120
-        # imageHeight: 120
         buttons:
-            # - name: About Me
-            #   url: /me/
             - name: Blogs
               url: /articles/
     mainSections:
-      - articles
+        - articles
 
-
+    # Social Icons
     socialIcons:
         - name: buymeacoffee
           url: "https://www.buymeacoffee.com/tapankumar"
@@ -71,11 +77,41 @@ params:
         - name: topmate
           url: "https://topmate.io/tapan_patro/"
 
-
-        # change favicon in images folder (icon for web tab)
+    # Favicon and Assets
     assets:
-          favicon: "/images/favicon.ico"
-          favicon16x16: "/images/favicon-16x16.png"
-          favicon32x32: "/images/favicon-32x32.png"
-          apple_touch_icon: "/images/apple-touch-icon.png"
-          safari_pinned_tab: "/images/apple-touch-icon.png"
+        favicon: "/images/favicon.ico"
+        favicon16x16: "/images/favicon-16x16.png"
+        favicon32x32: "/images/favicon-32x32.png"
+        apple_touch_icon: "/images/apple-touch-icon.png"
+        safari_pinned_tab: "/images/apple-touch-icon.png"
+
+# SEO improvements
+outputs:
+    home: ["HTML", "RSS", "JSON"]
+    section: ["HTML", "RSS", "JSON"]
+    taxonomy: ["HTML", "RSS", "JSON"]
+    taxonomyTerm: ["HTML", "RSS", "JSON"]
+    page: ["HTML", "RSS", "JSON"]
+    alias: ["HTML"]
+
+# Additional deployment options
+deployment:
+    targets:
+        - name: netlify
+          URL: https://api.netlify.com
+          headers:
+              - for: /images/*
+                values:
+                    Cache-Control: "public, max-age=31536000, immutable"
+
+# Customizations
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+
+minify:
+    disableCSS: false
+    disableJS: false
+    minifyOutput: true
+
