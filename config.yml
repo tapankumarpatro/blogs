@@ -78,7 +78,7 @@ params:
           url: "https://topmate.io/tapan_patro/"
         - name: x
           url: "https://twitter.com/tapankumarpatro"
-        -name: substack
+        - name: substack
           url: "https://substack.com/@tapanpatro"
 
     # Favicon and Assets
